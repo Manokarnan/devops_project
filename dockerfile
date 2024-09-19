@@ -7,4 +7,3 @@ RUN cp -rvf listrace.zip/* .
 RUN rm -rf listrace listrace.zip
 CMD ["apache2ctl", "-D", "FOREGROUND"]
 EXPOSE 80
-
